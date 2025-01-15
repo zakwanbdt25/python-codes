@@ -1,0 +1,161 @@
++*In[2]:*+
+[source, ipython3]
+----
+a=30
+b=40
+print("\n a+b",a+b)
+print("\n a-b",a-b)
+print("\n a*b",a*b)
+print("\n a/b",a/b)
+print("\n a%b",a%b)
+print("\n a**b",a**b)
+print("\n a//b",a//b)
+print("\n a=b",a==b)
+----
+
+
++*Out[2]:*+
+----
+
+ a+b 70
+
+ a-b -10
+
+ a*b 1200
+
+ a/b 0.75
+
+ a%b 30
+
+ a**b 121576654590569288010000000000000000000000000000000000000000
+
+ a//b 0
+
+ a=b False
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+a=True
+b=False
+print("a and b",a and b)
+print("a or b",a or b)
+print("not a",not a)
+----
+
+
++*Out[7]:*+
+----
+a and b False
+a or b True
+not a False
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+a=60
+b=13
+c=a&b
+print("a & b:",c)
+c=a|b
+print("a | b:",c)
+c=a^b
+print("a ^ b",c)
+c=~a
+print("~a",c)
+c=a<<b
+print("a << b",c)
+c=a>>b
+print("a >> b",c)
+----
+
+
++*Out[8]:*+
+----
+a & b: 12
+a | b: 61
+a ^ b 49
+~a -61
+a << b 491520
+a >> b 0
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+a=10
+a+=5
+print("a+=5",a)
+a-=5
+print("a-=5",a)
+a*=5
+print("a*=5",a)
+a/=5
+print("a/=5",a)
+a%=3
+print("a%=3",a)
+a**=2
+print("a**=2",a)
+a//=3
+print("a//=3",a)
+----
+
+
++*Out[9]:*+
+----
+a+=5 15
+a-=5 10
+a*=5 50
+a/=5 10.0
+a%=3 1.0
+a**=2 1.0
+a//=3 0.0
+----
+
+
++*In[10]:*+
+[source, ipython3]
+----
+a=(1,2,3,4,5)
+print("3 in a",3 in a)
+print("6 not in a",6 not in a)
+----
+
+
++*Out[10]:*+
+----
+3 in a True
+6 not in a True
+----
+
+
++*In[11]:*+
+[source, ipython3]
+----
+a=(1,2,3)
+b=a
+c=(1,2,3)
+print("a is b",a is b)
+print("a is c",a is c)
+print("a is not c",a is not c)
+----
+
+
++*Out[11]:*+
+----
+a is b True
+a is c False
+a is not c True
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
